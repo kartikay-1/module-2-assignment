@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+div {
+  border: 10px solid brown;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 0px;
+  margin-left: 1px;
+  background-color:  Cornsilk;
+}
+body {
+  background-color: Cornsilk;
+  font-size:20px;
+}
+
+h1 {
+  color:red;
+  text-align: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 30px;
+}
+</style>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css-styles.css">
+	<title>Module 2 Solution</title>
+</head>
+
+<body>
+    <h1><u>Our Menu</u></h1>
+
+    <div class="col-lg-4 col-md-6 col-sm-10">
+        <section>
+            <h2 id="chicken"><u> Chicken</u></h2>
+            <ul>
+                 <li>chicken biryani</li> 
+                 <li>chicken lollipop</li>
+                 <li>chicken butter masala</li>
+                 <li>Murg Malaiwala</li>
+                 <li>chicken galouti kebab</li>
+                 <li>chicken curry</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h2 id="paneer"><u>paneer</u></p></h2>
+            <ul>
+                <li>paneer butter masala</li>
+                <li>paneer lababdar</li>
+                <li>paneer makhanwala</li>
+                <li>palak paneer</li>
+                <li>paneer chilly</li>
+                <li>paneer sandwich</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="col-lg-4 col-md-1 col-sm-12">
+        <section>
+            <h2 id="mutton"><u>mutton</u></h2>
+            <ul>
+             <li>mutton biryani</li>
+             <li>mutton curry</li>
+             <li>mutton korma</li> 
+             <li>mutton rojan gosh</li> 
+             <li>mutton hebab </li>
+             <li>mutton laal maas</li>
+            </ul>
+        </section>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p>Github repository for this assignment can be found
+            <a href="https://github.com/kartikay-1/module-2-assignment.git" target="_blank">here</a>.
+        </p>
+    </div>
+</body>
+
+</html>
